@@ -1,5 +1,5 @@
 {
-  "name": "reactrouter",
+  "name": "crytoprices",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,3 +38,4 @@
     ]
   }
 }
+

@@ -11,4 +11,5 @@ const Stock = props => {
 }
 
 
-export default Stock
+
+export default Stock;

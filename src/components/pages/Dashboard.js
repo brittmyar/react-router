@@ -2,9 +2,9 @@ import React from "react";
 import {Link} from 'react-router-dom'
 
 function Dashboard(props) {
-  let stockData = props.stockData.map((d, i) => {
-    return <Link key={i} to={`/stocks/${d.symbol}`}>
-        <li >{d.name}</li>
+  let stockData = props.stockData.map((data, index) => {
+    return <Link key={index} to={`/stocks/${data.symbol}`}>
+        <li >{data.name}</li>
       </Link>
   });
   return <ul>{stockData}</ul>;
